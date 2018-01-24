@@ -1,0 +1,18 @@
+{
+    "name": "Hello World",
+    "version": "1.0",
+    "description": "Hello World!",
+    "icons": {
+        "128": "img/icon.png" 
+    },
+    "browser_action": {
+        "default_icon": "img/browseraction.png",
+        "default_title": "SmartCopyPaste",
+        "default_popup": "popup.html"
+    },
+    "manifest_version": 2,
+    "permissions": [
+        "activeTab",
+        "storage"
+    ]
+}
